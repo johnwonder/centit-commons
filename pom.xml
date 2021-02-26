@@ -38,13 +38,13 @@
     </developers>
 
     <scm>
-        <connection>
-            scm:git:https://github.com/ndxt/centit-commons.git
-        </connection>
-        <developerConnection>
-            scm:git:https://github.com/ndxt/centit-commons.git
-        </developerConnection>
-        <url>https://github.com/ndxt/centit-commons</url>
+<!--        <connection>-->
+<!--            scm:git:https://github.com/ndxt/centit-commons.git-->
+<!--        </connection>-->
+<!--        <developerConnection>-->
+<!--            scm:git:https://github.com/ndxt/centit-commons.git-->
+<!--        </developerConnection>-->
+<!--        <url>https://github.com/ndxt/centit-commons</url>-->
         <tag>2.3.2101</tag>
     </scm>
 
@@ -132,8 +132,8 @@
                 <version>2.5.3</version>
                 <configuration>
 
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <tagNameFormat>2.3.2101</tagNameFormat>
+                    <autoVersionSubmodules>false</autoVersionSubmodules>
+<!--                    <tagNameFormat>2.3.2101</tagNameFormat>-->
                     <generateReleasePoms>false</generateReleasePoms>
                     <arguments>-DskipTests</arguments>
                 </configuration>
