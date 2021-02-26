@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.centit.support</groupId>
     <artifactId>centit-commons</artifactId>
-    <version>2.3</version>
+    <version>2.4-SNAPSHOT</version>
     <name>com.centit.support:centit-commons</name>
     <packaging>pom</packaging>
     <description>java 常用工具类,作为 apache-commons的补充</description>
@@ -45,7 +45,7 @@
             scm:git:https://github.com/johnwonder/centit-commons.git
         </developerConnection>
         <url>https://github.com/johnwonder/centit-commons</url>
-        <tag>centit-commons-2.3</tag>
+        <tag>2.3.2101</tag>
     </scm>
 
     <modules>
